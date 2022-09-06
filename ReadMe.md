@@ -11,3 +11,17 @@ The project consists of:
 
 The site being replicated will be the business "Shogun Maitake" based out of London, Ontario.
 Its website can be found at: https://shogunmaitake.com/
+
+Source Colours:
+
+Fonts:
+
+Sub Tasks:
+
+1. Set up initial project structure
+2. Download all relevant icons and images from the source website
+3. Determine correct source colours
+4. Create div layout
+5. Populate Divs
+6. Fill out stylesheet
+7. Add mobile display responsiveness
