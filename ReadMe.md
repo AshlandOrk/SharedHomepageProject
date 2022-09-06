@@ -12,7 +12,7 @@ The project consists of:
 The site being replicated will be the business "Shogun Maitake" based out of London, Ontario.
 Its website can be found at: https://shogunmaitake.com/
 
-Source Colours:
+Source Colours: 
 
 Fonts:
 
