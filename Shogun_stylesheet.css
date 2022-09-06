@@ -1,1 +1,21 @@
 /* The stylesheet for the shogun maitake homepage */
+
+Header {
+  display: block;
+}
+
+/* Nav Bar Class and Elements */
+.navBar {
+  background-color: #676767;
+}
+
+.navBar li {
+  color: white;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.navBar a {
+  text-decoration: none;
+}
