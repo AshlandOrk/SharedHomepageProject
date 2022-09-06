@@ -5,24 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Shogun_stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Home - Shogun Maitake</title>
   </head>
   <body>
     <!--Website Header-->
     <header class="flex-container">
       <!-- Header logo goes here -->
-      <img src="" alt="" />
+      <div>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div>
+        <img
+          src="/Images/Logos/ShogunLogo_Large.png"
+          alt="Shogun Maitake Logo"
+        />
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-bag-shopping"></i>
+      </div>
     </header>
     <!-- Website Nav Bar -->
-    <nav Class="navBar">
+    <nav Class="navBar flex-container">
       <!-- Each of these nav bar options should have drop down menus except "ORDER
-      ONLINE" and "CONTACT" -->
-      <li><a href="#"> HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">FRESH MAITAKE & RECIPES</a></li>
-      <li><a href="#">DIETARY SUPPLEMENTS</a></li>
-      <li><a href="#">HEALTH BENEFIT</a></li>
-      <li><a href="#">ORDER ONLINE</a></li>
+      ONLINE" "HHEALTH BENEFIT" and "CONTACT" -->
+      <li>
+        <a href="#" id="current-page"> HOME</a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button class="drop-button">ABOUT</button>
+          <div class="dropdown-content">
+            <a href="#">About Us</a>
+            <a href="#">About Maitake</a>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="dropdown">
+          <button class="drop-button">FRESH MAITAKE & RECIPES</button>
+          <div class="dropdown-content">
+            <a href="#">Fresh Maitake</a>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="dropdown">
+          <button class="drop-button">DIETARY SUPPLEMENTS</button>
+          <div class="dropdown-content">
+            <a href="#">Dietary Supplements</a>
+            <a href="#">Products</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="#">HEALTH BENEFIT</a>
+      </li>
+      <li>
+        <a href="#">ORDER ONLINE</a>
+      </li>
       <li><a href="#">CONTACT</a></li>
     </nav>
   </body>
