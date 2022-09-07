@@ -12,9 +12,19 @@ The project consists of:
 The site being replicated will be the business "Shogun Maitake" based out of London, Ontario.
 Its website can be found at: https://shogunmaitake.com/
 
-Source Colours: 
+Source Colours:
+black background: color: #100f0d
+bright amber: #fcb900
+mellow yellow: rgba(255, 207, 88, 100)
 
 Fonts:
+Headers
+
+- serif
+
+Text
+
+- san-serif
 
 Sub Tasks:
 

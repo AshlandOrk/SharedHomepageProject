@@ -1,10 +1,52 @@
 /* The stylesheet for the shogun maitake homepage */
+/* Font Elements */
+@font-face {
+  font-family: Montserrat;
+  src: url(/Fonts/Montserrat-Font/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: Libre-Calson;
+  src: url(/Fonts/libre-caslon/librecaslontext-regular.otf);
+}
+
+section p {
+  font-size: 16pt;
+  font-family: sans-serif;
+}
+h2 {
+  font-family: Libre-Calson;
+  color: rgba(255, 207, 88, 100);
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: rgba(255, 207, 88, 100);
+}
+
+.dividingLine {
+  border-bottom: 2px rgba(255, 207, 88, 100);
+}
+
+span {
+  font-family: inherit;
+}
 
 /* Body */
 body {
   background-color: #100f0d;
   color: white;
   /* set default font size to 16pt */
+}
+
+.inverted-schema {
+  background-color: rgba(255, 207, 88, 100);
+  color: #100f0d;
 }
 
 /* Header and header elements */
@@ -19,6 +61,18 @@ header i {
 }
 
 /* Page Structure */
+#section-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#section-4 p {
+  margin-left: 8em;
+  margin-right: 8em;
+  line-height: 150%;
+}
+
 section #logoBar {
   display: block;
   background-color: white;
@@ -110,10 +164,18 @@ section #logoBar {
 
 /* Generic button */
 .button {
+  color: rgba(255, 207, 88, 100);
 }
 
 /* Animated Jumping Button */
 .jumping-button {
+  color: rgb(255, 207, 88);
+  background-color: inherit;
+  margin-right: 25px;
+  margin-left: 25px;
+  visibility: visible;
+  border-color: rgba(255, 207, 88, 0.75);
+  border-width: 2px;
 }
 
 .learn-more-button {
