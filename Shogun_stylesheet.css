@@ -2,7 +2,11 @@
 /* Font Elements */
 @font-face {
   font-family: Montserrat;
-  src: url(/Montserrat-Font/Montserrat-Regular.otf);
+  src: url(/Fonts/Montserrat-Font/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: Libre-Calson;
+  src: url(/Fonts/libre-caslon/librecaslontext-regular.otf);
 }
 
 section p {
@@ -10,7 +14,11 @@ section p {
   font-family: sans-serif;
 }
 h2 {
-  font-family: l;
+  font-family: Libre-Calson;
+  color: rgba(255, 207, 88, 100);
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
 }
 
 h4 {
@@ -19,6 +27,10 @@ h4 {
   line-height: 32px;
   font-weight: 500;
   color: rgba(255, 207, 88, 100);
+}
+
+.dividingLine {
+  border-bottom: 2px rgba(255, 207, 88, 100);
 }
 
 span {
@@ -49,6 +61,18 @@ header i {
 }
 
 /* Page Structure */
+#section-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#section-4 p {
+  margin-left: 8em;
+  margin-right: 8em;
+  line-height: 150%;
+}
+
 section #logoBar {
   display: block;
   background-color: white;
