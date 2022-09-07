@@ -61,6 +61,32 @@ header i {
 }
 
 /* Page Structure */
+/* Section 3 */
+#section-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#section-3-2 {
+  display: flex;
+  flex-direction: row;
+}
+.centeredHeading {
+  display: inherit;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-content: center; */
+  flex-direction: column;
+}
+
+.subItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section 4 */
 #section-4 {
   display: flex;
   align-items: center;
@@ -72,7 +98,7 @@ header i {
   margin-right: 8em;
   line-height: 150%;
 }
-
+/* Logo Bar Section */
 section #logoBar {
   display: block;
   background-color: white;
