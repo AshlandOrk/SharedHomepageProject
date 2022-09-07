@@ -1,10 +1,22 @@
 /* The stylesheet for the shogun maitake homepage */
+/* Font Elements */
+section p {
+  font-size: 16pt;
+  font-family: sans-serif;
+}
 
 /* Body */
 body {
   background-color: #100f0d;
   color: white;
   /* set default font size to 16pt */
+}
+
+.inverted-schema {
+  background-color: rgba(255, 207, 88, 100);
+  color: #100f0d;
+  width: auto;
+  height: fit-content;
 }
 
 /* Header and header elements */
@@ -110,6 +122,7 @@ section #logoBar {
 
 /* Generic button */
 .button {
+  color: rgba(255, 207, 88, 100);
 }
 
 /* Animated Jumping Button */
