@@ -5,6 +5,10 @@ section p {
   font-family: sans-serif;
 }
 
+h4 {
+  font-family: mont;
+}
+
 /* Body */
 body {
   background-color: #100f0d;
@@ -15,8 +19,6 @@ body {
 .inverted-schema {
   background-color: rgba(255, 207, 88, 100);
   color: #100f0d;
-  width: auto;
-  height: fit-content;
 }
 
 /* Header and header elements */
@@ -127,6 +129,13 @@ section #logoBar {
 
 /* Animated Jumping Button */
 .jumping-button {
+  color: rgb(255, 207, 88);
+  background-color: inherit;
+  margin-right: 25px;
+  margin-left: 25px;
+  visibility: visible;
+  border-color: rgba(255, 207, 88, 0.75);
+  border-width: 2px;
 }
 
 .learn-more-button {
